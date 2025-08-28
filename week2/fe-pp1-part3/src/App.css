@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Card {
+  border:solid #97989a1f;
+  box-shadow: 4px;
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 10px
+}
+.Logo{
+
+  width: 15%;
+  margin-left:80%;
+  margin-right: 10%;
+}
+
+
+.dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 3px;
+}
+
+.numberContainer{
+  display: flex;
+  height:18%;
+  font-size: x-large;
+  margin-left: 30px;
+  
+  
+}
+
+
+.cardInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: small;
+  
+}
+
+.cardInfo p {
+  flex: 1 1 45%; /* first two take half row each */
+}
+
+.cardInfo p:nth-child(3) {
+  flex: 1 1 100%; /* last one takes full row */
+  position: fixed;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+
+
+
+
+
