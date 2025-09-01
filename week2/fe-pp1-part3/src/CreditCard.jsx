@@ -10,6 +10,9 @@ function cardType(type){
     if (type === "Master Card"){
         return masterCard
     }        
+    else {
+      
+    }
 }
 
 function numberConverter(nums,props){
